@@ -1,40 +1,37 @@
 "use strict";
 
-function processData(input) {
-    let inputArray = input.split('\n');
-    let phoneBook = assemblePhoneBook(inputArray);
-    let namesArray = assembleNames(inputArray)
+function processData(rawInput) {
+    let processedInput = rawInput.split('\n');
+    let phoneBook = assemblePhoneBook(processedInput);
+    let names = assembleNames(processedInput)
 
-    checkForNames(namesArray, phoneBook);
+    checkForNames(names, phoneBook);
 }
 
 function assemblePhoneBook(arr) {
     let phoneBooklength = Number(arr[0]);
     let contactsArray = [];
     for (let i = 1; i <= phoneBooklength; i++) {
-        contactsArray.push(arr[i].split(' '));
+        let namePhonePair = arr[i].split(' ');
+        contactsArray.push(namePhonePair);
     }
     return new Map(contactsArray);
 }
 
 function assembleNames(arr) {
-    let firstElementIndex = Number(arr[0]) + 1;
-    let namesArray = [];
-    for (let i = firstElementIndex; i < arr.length; i++) {
-        namesArray.push(arr[i]);
+    let firstNameElementIndex = Number(arr[0]) + 1;
+    let names = [];
+    for (let i = firstNameElementIndex; i < arr.length; i++) {
+        names.push(arr[i]);
     }
-    return namesArray;
+    return names;
 }
 
-function checkForNames(namesArray, phoneBook) {
-    let arrayLength = namesArray.length;
-    for (let i = 0; i < arrayLength; i++) {
-        if (phoneBook.has(namesArray[i])) {
-            console.log(`${namesArray[i]}=${phoneBook.get(namesArray[i])}`)
-        } else {
-            console.log('Not found');
-        }
-    }
+function checkForNames(names, phoneBook) {
+    names.forEach(name => 
+        phoneBook.has(name) ? 
+        console.log(`${name}=${phoneBook.get(name)}`) : 
+        console.log('Not found'));
 }
 
-processData('3\nsam 99912222\ntom 11122222\nharry 12299933\nsam\nedward\nharry'); 
+processData('3\nsam 99912222\ntom 11122222\nharry 12299933\nsam\nedward\nharry');
