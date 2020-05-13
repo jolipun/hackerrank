@@ -6,4 +6,4 @@ function main(n) {
     console.log(Math.max(...binaryNumberArray));
 }
 
-main(158);
+    main(158);
