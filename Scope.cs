@@ -11,7 +11,7 @@ class Difference {
     }
 
     public void computeDifference(){
-        this.maximumDifference = elements.Max()-elements.Min();clear
+        this.maximumDifference = elements.Max()-elements.Min();
     }
 
 } // End of Difference Class
