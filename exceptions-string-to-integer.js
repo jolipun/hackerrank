@@ -1,17 +1,14 @@
 'use strict';
 
-function checkInput(input) {
+function checkInput(S) {
     try {
-        let element = Number(input);
-        if (isNaN(element) || element === undefined) {
-            throw 'Bad String';
-        } else {
-            console.log(element);
-        }
+        let N = parseInt(S, 10);
+        let fuckup = (isNaN(N) || N === undefined) && nothing();
+        console.log(N);
     }
     catch (err) {
-        console.error(err);
+        console.log('Bad String');
     }
 }
 
-checkInput('3');
+checkInput('ee');
