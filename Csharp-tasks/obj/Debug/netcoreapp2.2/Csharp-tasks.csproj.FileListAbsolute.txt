@@ -1,0 +1,11 @@
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\bin\Debug\netcoreapp2.2\Csharp-tasks.deps.json
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\bin\Debug\netcoreapp2.2\Csharp-tasks.runtimeconfig.json
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\bin\Debug\netcoreapp2.2\Csharp-tasks.runtimeconfig.dev.json
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\bin\Debug\netcoreapp2.2\Csharp-tasks.dll
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\bin\Debug\netcoreapp2.2\Csharp-tasks.pdb
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\obj\Debug\netcoreapp2.2\Csharp-tasks.csprojAssemblyReference.cache
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\obj\Debug\netcoreapp2.2\Csharp-tasks.csproj.CoreCompileInputs.cache
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\obj\Debug\netcoreapp2.2\Csharp-tasks.AssemblyInfoInputs.cache
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\obj\Debug\netcoreapp2.2\Csharp-tasks.AssemblyInfo.cs
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\obj\Debug\netcoreapp2.2\Csharp-tasks.dll
+C:\Programavimas\Hackerrank\hackerrank\Csharp-tasks\obj\Debug\netcoreapp2.2\Csharp-tasks.pdb
